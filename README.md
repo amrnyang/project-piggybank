@@ -5,4 +5,5 @@ Microservices for phonebook
 
 1. Setup local database server and update configuration in properties / yaml file in resources
 2. Run application in local profile. Set the profile in VM options: -Dspring.profiles.active=local
-3. Swagger url - http://localhost:9000/user/swagger-ui.html
+3. Swagger:
+  a. User Service - http://localhost:9000/user/swagger-ui.html
