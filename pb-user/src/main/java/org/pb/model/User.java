@@ -1,12 +1,13 @@
 package org.pb.model;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
-@Data
+@AllArgsConstructor
 @NoArgsConstructor
+@Data
+@Builder
 @Entity
 @Table
 public class User {

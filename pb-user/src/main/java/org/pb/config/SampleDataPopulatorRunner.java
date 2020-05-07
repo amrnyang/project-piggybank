@@ -9,17 +9,14 @@ import org.springframework.stereotype.Component;
 
 @Data
 @Component
-@Profile("!local")
+@Profile("local")
 public class SampleDataPopulatorRunner implements CommandLineRunner {
 
     private final UserRepository userRepository;
 
     @Override
     public void run(String... args) throws Exception {
-        User user = new User();
-        user.setFirstName("Rohit");
-        user.setLastName("Phular");
-
+        final User user = User.builder().firstName("Rohit").lastName("Phular").build();
         userRepository.save(user);
     }
 }
