@@ -4,6 +4,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
+import javax.validation.constraints.Email;
+
 @Data
 @NoArgsConstructor
 public class UserDTO {
@@ -12,4 +14,7 @@ public class UserDTO {
     private String firstName;
     @NonNull
     private String lastName;
+    @NonNull
+    @Email
+    private String email;
 }

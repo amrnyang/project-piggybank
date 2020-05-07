@@ -16,7 +16,7 @@ public class SampleDataPopulatorRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        final User user = User.builder().firstName("Rohit").lastName("Phular").build();
+        final User user = User.builder().firstName("Rohit").lastName("Phular").email("r.p@test.com").build();
         userRepository.save(user);
     }
 }
