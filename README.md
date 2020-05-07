@@ -1,2 +1,2 @@
-# accion-phonebook
+# project-phonebook
 Microservices for phonebook
