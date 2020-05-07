@@ -1,7 +1,7 @@
 package org.pb.config;
 
 import lombok.Data;
-import org.pb.UserRepository;
+import org.pb.repository.UserRepository;
 import org.pb.model.User;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Profile;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Data
 @Component
 @Profile("!local")
-public class Runner implements CommandLineRunner {
+public class SampleDataPopulatorRunner implements CommandLineRunner {
 
     private final UserRepository userRepository;
 

@@ -1,4 +1,4 @@
-package org.pb;
+package org.pb.repository;
 
 import org.pb.model.User;
 import org.springframework.data.repository.CrudRepository;

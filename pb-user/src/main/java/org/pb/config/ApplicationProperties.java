@@ -5,9 +5,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Data
 @ConfigurationProperties(prefix = "app.service")
-public class ApplicationConfiguration {
+public class ApplicationProperties {
 
-    private Boolean authenticateUser;
+    private Boolean allowUserCreation;
     private Boolean validateUser;
     private Authorise authorise;
 
