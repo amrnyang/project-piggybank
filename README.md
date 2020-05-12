@@ -1,5 +1,5 @@
-# project-phonebook
-Microservices for phonebook
+# project-piggybank
+Microservices for piggybank
 
 ## Getting Started
 
@@ -8,6 +8,3 @@ Microservices for phonebook
 3. Swagger:
   - User Service - http://localhost:9000/user/swagger-ui.html
 4. Application Properties - https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
-
-### TODO
-1. Need to create address micro-service (ETA - 9th May 2020)
