@@ -8,7 +8,7 @@ spring:
     hibernate:
       ddl-auto: none
   datasource:
-    url: jdbc:mysql://localhost:3306/project_phonebook
+    url: jdbc:mysql://localhost:3306/piggy_bank_local
     username: root
     password: Accion@10
   liquibase:
