@@ -36,6 +36,13 @@ public class LocalDataPopulator implements CommandLineRunner {
                 .active(true)
                 .build();
 
-        userAuthRepository.saveAll(Arrays.asList(normalUser, adminUser));
+        UserAuth inactiveUser = UserAuth.builder()
+                .userName("john")
+                .password(passwordEncoder.encode("pass"))
+                .roles("ROLE_ADMIN")
+                .active(false)
+                .build();
+
+        userAuthRepository.saveAll(Arrays.asList(normalUser, adminUser, inactiveUser));
     }
 }
