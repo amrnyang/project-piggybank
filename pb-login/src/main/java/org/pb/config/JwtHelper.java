@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-@Component
+//@Component
 public class JwtHelper {
 
     private final String SECRET_KEY = "secret";

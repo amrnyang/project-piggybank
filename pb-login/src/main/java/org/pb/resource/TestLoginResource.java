@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestLoginResource {
 
-    @GetMapping
+    @GetMapping("/home")
     public String home() {
         return "Public";
     }

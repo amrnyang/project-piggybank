@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.util.Objects;
 
 @Data
-@Component
+//@Component
 public class JwtRequestFilter extends OncePerRequestFilter {
 
     private final JwtHelper jwtHelper;

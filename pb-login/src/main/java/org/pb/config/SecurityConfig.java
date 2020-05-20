@@ -18,8 +18,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @Data
 @Slf4j
-@EnableWebSecurity
-@Configuration
+//@EnableWebSecurity
+//@Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     private final LoginUserDetailService loginUserDetailService;

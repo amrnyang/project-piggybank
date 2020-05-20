@@ -13,3 +13,10 @@ spring:
     password: Accion@10
   liquibase:
     change-log: classpath:/db/changelog/changelog-master.xml
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: 59630c22c327a440f4dc
+            client-secret: f5556ff498d1b7743e762a1cdea47ed8869f6a9b
